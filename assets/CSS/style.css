@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.bigbody {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+h1 {
+	text-align: center; 
+}
+
+.submitname {
+	width: 60px;
+}
+
+.gamearea {
+	border: 3px solid black;
+	width: 250px;
+	height: 250px;
+
+}
+
+textarea {
+	height: 280px;
+}
+
+.messages {
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	justify-content: space-around;
+}
+
+
+.messagebox {
+
+	width: 100%;
+}
+
+.chat {
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	justify-content: center;
+	width: 90%;
+	height: 300px;
+	margin-top: 20px;
+
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+} 
+
+.mess {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: auto;
+}
